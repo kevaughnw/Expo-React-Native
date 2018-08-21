@@ -1,5 +1,5 @@
 {
-  "name": "my-new-project",
+  "name": "MVMS",
   "main": "node_modules/expo/AppEntry.js",
   "private": true,
   "scripts": {
@@ -15,11 +15,15 @@
   "dependencies": {
     "@expo/samples": "2.1.1",
     "expo": "29.0.0",
-    "react": "16.3.1",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-29.0.0.tar.gz",
-    "react-navigation": "^2.9.3"
+    "react": "^16.4.2",
+    "react-native": "^0.56.0",
+    "react-native-camera": "^1.2.0",
+    "react-navigation": "^2.9.3",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0"
   },
   "devDependencies": {
-    "jest-expo": "29.0.0"
+    "jest-expo": "29.0.0",
+    "redux-devtools": "^3.4.1"
   }
 }
