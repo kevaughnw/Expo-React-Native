@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 export default class App extends React.Component {
     render() {
         return (React.createElement(View, { style: styles.container },
-            React.createElement(Text, null, "Motor Vehicle Project")));
+            React.createElement(Text, null, "React is cool!")));
     }
 }
 const styles = StyleSheet.create({
