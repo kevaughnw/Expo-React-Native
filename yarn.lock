@@ -605,9 +605,9 @@
     "@types/node" "*"
     "@types/react" "*"
 
-"@types/react-native@^0.56.10":
-  version "0.56.10"
-  resolved "https://registry.yarnpkg.com/@types/react-native/-/react-native-0.56.10.tgz#b4db3244fcbe48f0398aa714869db15b5984779e"
+"@types/react-native@^0.56.11":
+  version "0.56.11"
+  resolved "https://registry.yarnpkg.com/@types/react-native/-/react-native-0.56.11.tgz#03523c23e580f7c0e9297ca9af330bd12678e749"
   dependencies:
     "@types/react" "*"
 
