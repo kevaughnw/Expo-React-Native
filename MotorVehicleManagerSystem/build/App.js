@@ -1,17 +1,8 @@
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React from "react";
+import Location from './components/location/location.container';
 export default class App extends React.Component {
     render() {
-        return (React.createElement(View, { style: styles.container },
-            React.createElement(Text, null, "React is cool!")));
+        return (React.createElement(Location, null));
     }
 }
-const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        backgroundColor: '#fff',
-        alignItems: 'center',
-        justifyContent: 'center',
-    },
-});
 //# sourceMappingURL=App.js.map
