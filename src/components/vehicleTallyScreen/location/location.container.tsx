@@ -1,21 +1,9 @@
 import React, { Component } from "react";
 import { Button, Picker, StyleSheet, Text, View } from "react-native";
+import { StateProps, IState } from "./type";
 
-export interface Props {
-  location?: string;
-  type?: string;
-  updateLocation?: () => void;
-  updateType?: () => void;
-}
-
-interface State {
-  location: string;
-  type: string;
-  itemIndex: any;
-}
-
-export default class Location extends Component<Props, State> {
-  constructor(props: Props) {
+export default class Location extends Component<StateProps, IState> {
+  constructor(props: StateProps) {
     super(props);
 
     this.state = {
